@@ -1,0 +1,93 @@
+@import "../fonts/fonts.css";
+
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+h1, p, input{
+	margin-bottom: 0;
+}
+
+.wrapper{
+	background: #fff;
+	width: 100%;
+	padding: 130px 0;
+}
+
+/* card */
+
+.card{
+	max-width: 1200px;
+	padding: 120px;
+	margin: 0 auto;
+	box-shadow: 0px 4px 68px rgba(0, 0, 0, .1);
+	color: #171717;
+}
+
+/* card content */
+
+.card__title{
+	font-family: 'Playfair Display Regular', serif;
+	font-size: 2.625rem;
+	letter-spacing: -.005rem;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+.card__text{
+	font-family: 'Lato Light', sans-serif;
+	font-size: 1.125rem;
+	line-height: 1.888;
+	letter-spacing: -.005rem;
+	margin-top: 30px;
+}
+
+
+.initial--letter{
+	font-family: 'Playfair Display Regular', serif;
+	font-size: 6.875rem;
+	vertical-align: top;
+	float: left;
+	line-height: .86;
+	padding-right: 10px;
+}
+
+.card__quote{
+	font-family: 'Lato Light Italic', sans-serif;
+	letter-spacing: -.005rem;
+	font-size: 1.5rem;
+	margin-top: 5px;
+}
+
+.card__quote:before{
+	content: '"';
+	font-family: 'Lato Light Italic', sans-serif;
+	font-size: 60px;
+	padding-right: 20px;
+}
+
+.card__button{
+	font-family: 'Lato Bold';
+	font-weight: normal;
+	font-size: 1.125rem;
+	letter-spacing: .2rem;
+	text-transform: uppercase;
+	color: #eaa258;
+	border: 2px solid #eaa258;
+	line-height: 1.111;
+	padding: 24px 70px;
+	text-decoration: none;
+	margin-top: 25px;
+	display: inline-block;
+	transition: all .3s;
+}
+
+.card__button:hover{
+	background: #eaa258;
+	color: #fff;
+}
